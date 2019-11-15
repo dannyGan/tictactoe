@@ -1,0 +1,24 @@
+.counter {
+	margin: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(132, 24, 144, 0.7);
+    border: solid 5px black;
+    font-size: 30px;
+}
+
+.displayNumber {
+	text-align: center;
+	margin: center;
+	padding: 10px;
+	border: solid 5px black;
+	text-align: center;
+}
+
+html{
+    background-color: seagreen;
+}
+
+.opening{
+    font-size: 50px;
+}
