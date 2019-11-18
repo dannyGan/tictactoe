@@ -1,15 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Counter from './component/counter'
-import './component/counter.css'
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <Counter/>
-    </div>
-  );
+import Game from "./component/Game";
+import "./App.css";
+
+class App extends React.Component {
+	render() {
+		return (
+			<div className="App">
+				<h1>Tic Tac Toe</h1>
+				<Game />
+			</div>
+		);
+	}
 }
 
 export default App;
